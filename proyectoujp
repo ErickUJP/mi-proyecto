@@ -1,0 +1,135 @@
+<!DOCTYPE html:5>
+<html lang="es">
+
+<head>
+    <meta charset="iso-8859-1">
+    <meta charset="utf-8">
+    <meta name="description" content="Ejemplo de HTML5">
+    <title>Etiquetas de HTML5</title>
+    <link rel="stylesheet" href="misestilos.css">
+</head>
+
+<body>
+    <div style="display: table;border: solid;width: 90vw;height: 90vh;margin-left: auto;margin-right: auto;">
+        <div style="display: table-row;">
+            <div style="display: table-cell;width: 20vw;border: solid;background-color: rgb(116, 117, 117);">
+                <div style="display: table;"><br>
+                    <div style="display: table-row;background-color: rgb(69, 168, 147);">
+                        <div style="display: table-cell;border: groove;width: 50vw;height: 5vh;">
+                        <img style="height: 6vh; width: 7vw;" src="https://www.hdicon.com/wp-content/uploads/2011/01/html5.png">
+                        </div>
+                        <div style="display: table-cell;border: groove;width: 250vw;height: 2vh;text-align:center">
+                            HTML5</div>
+                    </div>
+                </div>
+                <p style="text-align: center;color: aquamarine;">Etiquetas mas comunes</p>
+                <p class="parrafo">Listas ordenadas:</p>
+                <p class="parrafo">Lenguajes</p>
+                <ul class="parrafo">
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+                <p class="parrafo">Listas desordenadas:</p>
+                <p class="parrafo">Servidores</p>
+                <ol class="parrafo">
+                    <li>Web</li>
+                    <li>BD</li>
+                    <li>Archivos</li>
+                </ol>
+                <p class="parrafo"><a href="#tabla">Tablas:</a></p>
+                <table class="tprincipal">
+                    <tr>
+                        <td class="celdaA">a</td>
+                        <td class="celdaB">b</b></td>
+                    </tr>
+                    <tr>
+                        <td class="celdaB">c</td>
+                        <td class="celdaA">d</td>
+                    </tr>
+                    
+
+                </table>
+            </div>
+            <div style="display: table-cell;border: groove;background-color: rgb(172, 172, 170);">
+                <br><br><br><p style="font-size: 30px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: aquamarine;">
+                    Herramientas Tecnologicas y Digitales I</p>
+                <br>
+                <br>
+                <br>
+                <p class="parrafo2">Ejemplo de lista desordenada:</p><br>
+                <p class="parrafo">Marcas de motos favoritas</p><br><br>
+                <ul class="lista">
+                    <li>Vento</li>
+                    <li>Italika</li>
+                    <li>Susuki</li>
+                    <li>Bajaj</li>
+                </ul><br><br>
+                <p class="parrafo2">Ejemplo de lista ordenada:</p><br>
+                <p class="parrafo">Peliculas Favoritas</p><br><br>
+                <ol class="lista">
+                    <li>Rapido y Furioso</li>
+                    <li>Avengers</li>
+                    <li>Harry Potter</li>
+                    <li>Transformers</li>
+                </ol><br><br>
+                <p class="parrafo2"><a name="tabla">Ejemplo de tablas:</a></p><br>
+                <p class="parrafo">Horario de clase</p><br><br>
+                <table class="tabla">
+                    <tr>
+                        <td class="celdamenu">Lunes</td>
+                        <td class="celdamenu">Martes</td>
+                        <td class="celdamenu">Miercoles</td>
+                        <td class="celdamenu">Jueves</td>
+                        <td class="celdamenu">Viernes</td>
+                    </tr>
+                    <tr>
+                        <td class="celda2">Matematicas</td>
+                        <td class="celda1">Sistemas</td>
+                        <td class="celda2">Fisica</td>
+                        <td class="celda1">Sistemas</td>
+                        <td class="celda2">Programacion</td>
+                    </tr>
+                    <tr>
+                        <td class="celda1">Contabilidad</td>
+                        <td class="celda2">Comunicacion</td>
+                        <td class="celda1">Contabilidad</td>
+                        <td class="celda2">Electronica</td>
+                        <td class="celda1">Sistemas</td>
+
+                    </tr>
+                    <tr>
+                        <td class="celda2">Programacion</td>
+                        <td class="celda1">Lectura</td>
+                        <td class="celda2">Algebra</td>
+                        <td class="celda1">Programacion</td>
+                        <td class="celda2">Fisica</td>
+                    </tr>
+                    <tr>
+                        <td class="celda1">Sistemas</td>
+                        <td class="celda2">Trigonometria</td>
+                        <td class="celda1">Sistemas</td>
+                        <td class="celda2">Contabilidad</td>
+                        <td class="celda1">Contabilidad</td>
+                    </tr>
+                </table>
+                
+            </div>
+        
+        </div>
+    
+    
+    </div>
+    
+    
+
+
+    
+
+
+</body>
+
+
+
+
+</html>
